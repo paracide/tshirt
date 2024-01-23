@@ -1,9 +1,15 @@
+import Canvas from "./canvas/index.tsx";
+import Customizer from "./pages/Customizer.tsx";
+import Home from "./pages/Home.tsx";
+
 function App() {
 
     return (
-        <>
-            <h1 className="head-text">Hello</h1>
-        </>
+        <main className="app transition-all ease-in">
+            <Home/>
+            <Canvas/>
+            <Customizer/>
+        </main>
     )
 }
 
